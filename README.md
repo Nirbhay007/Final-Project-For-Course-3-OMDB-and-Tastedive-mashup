@@ -21,10 +21,8 @@ It takes a list of movie titles as input. It gets five related movies for each f
 It takes in one parameter which is a string that should represent the title of a movie you want to search. The function should return a dictionary with information about that movie.
 #### 5. def get_movie_rating(movieNameJson):
  It takes an OMDB dictionary result for one movie and extracts the Rotten Tomatoes rating as an integer. If there is no Rotten Tomatoes rating, return 0.
- #### 6. get_sorted_recommendations(listMovieTitle):
- 
- ## Authors/authors:
-Richard Daniel Oliva Denis. danielolivadenis@gmail.com
+#### 6. get_sorted_recommendations(listMovieTitle):
+It takes a list of movie titles as an input. It returns a sorted list of related movie titles as output, up to five related movies for  each input movie title. The movies should be sorted in descending order by their Rotten Tomatoes rating, as returned by the    get_movie_rating function
 
 
 Course material: University of Michigan in Coursera. You can find more information at https://www.coursera.org/learn/data-collection-processing-python/home/welcome
